@@ -1,0 +1,66 @@
+.designing{
+    text-align: center;
+}
+.div-row{
+    margin-top: 15px;
+}
+.G1{
+    max-width: 261px;
+    border-radius: 10px;
+    border: 1.6px solid rgb(230, 230, 230);
+}
+.G1-text{
+    max-width: 260px;
+    font-size: 12px;
+
+}
+
+.anch{
+    text-decoration: none;
+    font-size: 18px;
+}
+.G1-div{
+    
+    flex-direction:column;
+    flex: 1;
+    margin-right: 15px;
+    display: inline-flex;
+}
+
+p{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 18px;
+
+}
+
+.content{
+    margin: auto;
+    max-width: 1000;
+}
+.about-ken-div2{
+    margin-top: 150px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.list{
+    font-family: gotham;
+
+}
+
+.anchors,
+.anchors1 {
+    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+li{
+    margin-bottom: 3px;
+}
+
+.str{
+    font-weight: 550;
+}

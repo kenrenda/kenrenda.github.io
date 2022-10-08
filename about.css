@@ -1,0 +1,35 @@
+.about-p1{
+    max-width: 1000px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    text-align: justify;
+
+}
+.p1{
+    margin-top: 0px;
+    
+}
+.ken-pic{
+    margin-top: 90px;
+    vertical-align: top;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    max-width: 450px;
+}
+
+
+
+.ken-pic-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-about{
+    margin-top: 0px;
+}
