@@ -23,7 +23,7 @@
     text-align: center;
     background: url("../../assets/img/DLM_web2.jpg") no-repeat;
     background-size: cover;
-    height: 550px;
+    /*height: 550px;*/
     overflow: hidden;
   }
 }
