@@ -1,0 +1,259 @@
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+#phone-col {
+  margin-bottom: 15px;
+}
+
+#email-col {
+}
+
+#about-para {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+#home:active {
+  color: rgba(255,255,255,0.85);
+}
+
+#home:hover {
+  color: rgba(255,255,255,0.91);
+}
+
+#home {
+  color: white;
+}
+
+#ken-renda-home {
+  color: #ffffff;
+}
+
+#div-jumbo {
+  background-image: url("../../assets/img/Renda%20Brand%20Id.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  #div-jumbo {
+    background-image: url("../../assets/img/Renda%20Brand%20Id.jpg");
+    background-size: cover;
+    padding: 100px;
+  }
+}
+
+#jumbo-div {
+  border-radius: 30px;
+  background-color: rgba(255,255,255,0.75)!important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+@media (min-width: 576px) {
+  #jumbo-div {
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.75)!important;
+    padding-left: 40px!important;
+    padding-right: 40px!important;
+  }
+}
+
+#services-div {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+#services-div-1 {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+#line {
+  height: 70px;
+  width: 4px;
+  background-color: #2edf7c;
+  margin-left: 45px;
+  border-radius: 5px;
+  margin-top: -170px;
+}
+
+#para-ser- {
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  margin-top: 30px;
+  font-style: italic;
+}
+
+#para-ser {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+#para-ser-1 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  color: white;
+}
+
+@media (min-width:768px) {
+  #para-ser-1 {
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+  }
+}
+
+@media (min-width:768px) {
+  #para-ser- {
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Montserrat';
+  }
+}
+
+@media (min-width:768px) {
+  #para-ser {
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+  }
+}
+
+#para-ser-3 {
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+#work-row-1 {
+  margin-top: 100px;
+}
+
+#caption {
+  margin-left: 50px;
+  margin-top: 5px;
+  font-size: 10px;
+  font-family: 'Montserrat';
+}
+
+@media (min-width: 768px) {
+  #work-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+#work-image {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 5px;
+  /*margin-left: 50px;*/
+  margin-bottom: 50px;
+}
+
+#port-jumbo {
+  background-color: rgba(0,0,0,0.46)!important;
+  padding-left: 0px!important;
+  padding-top: 70px!important;
+  padding-right: 0px!important;
+  padding-bottom: 100px!important;
+}
+
+#dl-btn {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  border-radius: 10px;
+}
+
+#fb {
+  margin-top: 26px!important;
+}
+
+.fa.fa-whatsapp.icon:active {
+  color: #23f47f;
+}
+
+#fb:active {
+  color: #23f47f;
+}
+
+#to-top {
+  color: #2edf7c;
+}
+
+#png-1 {
+  max-width: 80px;
+  /*text-align: center;*/
+  margin: auto;
+}
+
+#png {
+  max-width: 100px;
+  margin-bottom: 3px;
+  /*text-align: center;*/
+  /*margin: auto;*/
+}
+
+#renda-about {
+  margin-top: 30px;
+}
+
