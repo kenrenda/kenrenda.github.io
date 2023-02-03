@@ -20,11 +20,19 @@
 
 @media (max-width: 545px) {
   #landing-div {
-    text-align: center;
+    /*text-align: center;*/
     background: url("../../assets/img/DLM_web2.jpg") no-repeat;
     background-size: cover;
-    /*height: 550px;*/
-    overflow: hidden;
+    /*overflow: hidden;*/
+  }
+}
+
+@media (max-width: 360px) {
+  #landing-div {
+    /*text-align: center;*/
+    background: url("../../assets/img/DLM_web3.jpg") no-repeat;
+    background-size: cover;
+    /*overflow: hidden;*/
   }
 }
 
