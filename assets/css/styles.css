@@ -9,13 +9,15 @@
   margin-left: 20px;
 }
 
-#landing-div {
-  text-align: center;
-  background: url("../../assets/img/DLM_web.jpg") no-repeat;
-  background-size: cover;
-  height: 640px;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 361px) {
+  #landing-div {
+    text-align: center;
+    background: url("../../assets/img/DLM_web.jpg") no-repeat;
+    background-size: cover;
+    height: 640px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 545px) {
@@ -29,10 +31,14 @@
 
 @media (max-width: 360px) {
   #landing-div {
-    /*text-align: center;*/
-    background: url("../../assets/img/DLM_web3.jpg") no-repeat;
+    background: url("../../assets/img/DLM_web2.jpg") no-repeat;
     background-size: cover;
-    /*overflow: hidden;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 125px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
