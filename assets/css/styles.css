@@ -9,36 +9,24 @@
   margin-left: 20px;
 }
 
-@media (min-width: 361px) {
-  #landing-div {
-    text-align: center;
-    background: url("../../assets/img/DLM_web.jpg") no-repeat;
-    background-size: cover;
-    height: 640px;
-    justify-content: center;
-    align-items: center;
-  }
+#landing-div {
+  text-align: center;
+  background: url("../../assets/img/DLM_web.jpg") no-repeat;
+  background-size: cover;
+  height: 640px;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 545px) {
   #landing-div {
-    /*text-align: center;*/
-    background: url("../../assets/img/DLM_web2.jpg") no-repeat;
-    background-size: cover;
-    /*overflow: hidden;*/
-  }
-}
-
-@media (max-width: 360px) {
-  #landing-div {
-    background: url("../../assets/img/DLM_web2.jpg") no-repeat;
-    background-size: cover;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 90px;
-    padding-left: 0px;
-    padding-right: 0px;
+    background: url("../../assets/img/DLM_web2.jpg") no-repeat;
+    background-size: cover;
+    /*height: 600vh;*/
+    background-attachment: fixed;
+    /*overflow: hidden;*/
+    object-fit: cover;
   }
 }
 
@@ -234,7 +222,24 @@
   padding-bottom: 100px;
   /*padding: 15px;*/
   max-width: 1349px;
-  /*margin: auto;*/
+  align-items: center;
+}
+
+@media (min-width: 1400px) {
+  #graphic-div {
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.05);
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /*padding: 15px;*/
+    max-width: 1349px;
+    align-items: center;
+  }
 }
 
 .footer-basic {
