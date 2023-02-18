@@ -24,9 +24,9 @@
     text-align: center;
     background: url("../../assets/img/DLM_web4.jpg") no-repeat;
     background-size: cover;
-    /*height: 600vh;*/
+    height: 600px;
     background-attachment: fixed;
-    /*overflow: hidden;*/
+    overflow: hidden;
     object-fit: cover;
   }
 }
